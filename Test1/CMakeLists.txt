@@ -28,4 +28,4 @@ set(LIBRARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/sharedlib")
 endif()
 
 add_executable( Test1 main.cpp )
-target_link_libraries(Test1 TestLoop TestClass TestFramework)
+target_link_libraries(Test1 TestFramework)
