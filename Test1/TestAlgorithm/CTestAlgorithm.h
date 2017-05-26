@@ -27,6 +27,31 @@ private:
 	void test_is_permutation();
 	void test_search();
 	void test_search_n();
+
+
+	void test_copy();
+	void test_copy_n();
+	void test_copy_if();
+	void test_copy_backward();
+	void test_move();
+	void test_move_backward();
+	void test_swap();
+	void test_swap_ranges();
+	void test_iter_swap();
+	void test_transform();
+	void test_replace();
+	void test_replace_if();
+	void test_replace_copy();
+	void test_replace_copy_if();
+	void test_fill();
+	void test_fill_n();
+	void test_generate();
+	void test_generate_n();
+	void test_remove();
+	void test_remove_if();
+	void test_remove_copy();
+	void test_remove_copy_if();
+
 };
 
 #endif
